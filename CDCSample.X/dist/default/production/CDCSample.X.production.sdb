@@ -1,0 +1,1230 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F14K50 ]
+[d frameptr 4065 ]
+"70 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/system.c
+[e E3753 . `uc
+SYSTEM_STATE_USB_START 0
+SYSTEM_STATE_USB_SUSPEND 1
+SYSTEM_STATE_USB_RESUME 2
+]
+"131 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/usb_device.c
+[e E4051 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"731
+[e E3800 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_DATA_ISOC_READ 119
+EVENT_DATA_ISOC_WRITE 120
+EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION 121
+EVENT_1MS 122
+EVENT_ALT_INTERFACE 123
+EVENT_HOLD_BEFORE_CONFIGURATION 124
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"2035
+[e E4060 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+EVENT_TRANSFER_TERMINATED 5
+]
+"425 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/usb_device_cdc.c
+[e E3798 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_DATA_ISOC_READ 119
+EVENT_DATA_ISOC_WRITE 120
+EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION 121
+EVENT_1MS 122
+EVENT_ALT_INTERFACE 123
+EVENT_HOLD_BEFORE_CONFIGURATION 124
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"426
+[e E4058 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+EVENT_TRANSFER_TERMINATED 5
+]
+"13 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/cdc.c
+[e E3753 . `uc
+SYSTEM_STATE_USB_START 0
+SYSTEM_STATE_USB_SUSPEND 1
+SYSTEM_STATE_USB_RESUME 2
+]
+"24
+[e E4049 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"56
+[e E3798 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_DATA_ISOC_READ 119
+EVENT_DATA_ISOC_WRITE 120
+EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION 121
+EVENT_1MS 122
+EVENT_ALT_INTERFACE 123
+EVENT_HOLD_BEFORE_CONFIGURATION 124
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"57
+[e E4058 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+EVENT_TRANSFER_TERMINATED 5
+]
+"492 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+[v i2_memset memset `(*.39v  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"3 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/cdc.c
+[v _cdcInit cdcInit `(v  1 e 0 0 ]
+"11
+[v _systemInit systemInit `(v  1 e 0 0 ]
+"17
+[v _update update `(i  1 e 2 0 ]
+"55
+[v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(uc  1 e 1 0 ]
+"122
+[v _cdcPuts cdcPuts `(v  1 e 0 0 ]
+"136
+[v _cdcGets cdcGets `(i  1 e 2 0 ]
+"69 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 0 0 ]
+[v i2_SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 0 0 ]
+"87
+[v _SYS_InterruptHigh SYS_InterruptHigh `II(v  1 e 0 0 ]
+"295 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/usb_device.c
+[v _USBDeviceInit USBDeviceInit `(v  1 e 0 0 ]
+[v i2_USBDeviceInit USBDeviceInit `(v  1 e 0 0 ]
+"495
+[v _USBDeviceTasks USBDeviceTasks `(v  1 e 0 0 ]
+"896
+[v _USBEnableEndpoint USBEnableEndpoint `(v  1 e 0 0 ]
+"1013
+[v _USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 2 0 ]
+[v i2_USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 2 0 ]
+"1370
+[v _USBDeviceAttach USBDeviceAttach `(v  1 e 0 0 ]
+"1434
+[v _USBCtrlEPAllowStatusStage USBCtrlEPAllowStatusStage `(v  1 e 0 0 ]
+"1506
+[v _USBCtrlEPAllowDataStage USBCtrlEPAllowDataStage `(v  1 e 0 0 ]
+"1561
+[v _USBConfigureEndpoint USBConfigureEndpoint `(v  1 s 0 USBConfigureEndpoint ]
+"1634
+[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 s 0 USBCtrlEPServiceComplete ]
+"1789
+[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 s 0 USBCtrlTrfTxService ]
+"1870
+[v _USBCtrlTrfRxService USBCtrlTrfRxService `(v  1 s 0 USBCtrlTrfRxService ]
+"1986
+[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 s 0 USBStdSetCfgHandler ]
+"2061
+[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 s 0 USBStdGetDscHandler ]
+"2147
+[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 s 0 USBStdGetStatusHandler ]
+"2220
+[v _USBStallHandler USBStallHandler `(v  1 s 0 USBStallHandler ]
+"2263
+[v _USBSuspend USBSuspend `(v  1 s 0 USBSuspend ]
+"2321
+[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 s 0 USBWakeFromSuspend ]
+"2390
+[v _USBCtrlEPService USBCtrlEPService `(v  1 s 0 USBCtrlEPService ]
+"2483
+[v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 s 0 USBCtrlTrfSetupHandler ]
+"2555
+[v _USBCtrlTrfOutHandler USBCtrlTrfOutHandler `(v  1 s 0 USBCtrlTrfOutHandler ]
+"2609
+[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 s 0 USBCtrlTrfInHandler ]
+"2703
+[v _USBCheckStdRequest USBCheckStdRequest `(v  1 s 0 USBCheckStdRequest ]
+"2771
+[v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 s 0 USBStdFeatureReqHandler ]
+"3042
+[v _USBIncrement1msInternalTimers USBIncrement1msInternalTimers `(v  1 e 0 0 ]
+"147 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/usb_device_cdc.c
+[v _USBCheckCDCRequest USBCheckCDCRequest `(v  1 e 0 0 ]
+"294
+[v _CDCInitEP CDCInitEP `(v  1 e 0 0 ]
+"485
+[v _getsUSBUSART getsUSBUSART `(uc  1 e 1 0 ]
+"556
+[v _putUSBUSART putUSBUSART `(v  1 e 0 0 ]
+"629
+[v _putsUSBUSART putsUSBUSART `(v  1 e 0 0 ]
+"836
+[v _CDCTxService CDCTxService `(v  1 e 0 0 ]
+"5 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\main.c
+[v _main main `(v  1 e 0 0 ]
+"49 C:\Program Files (x86)\Microchip\xc8\v1.35\include\pic18f14k50.h
+[v _UEP0 UEP0 `VEuc  1 e 1 @3923 ]
+[s S765 . 1 `uc 1 EPSTALL 1 0 :1:0 
+`uc 1 EPINEN 1 0 :1:1 
+`uc 1 EPOUTEN 1 0 :1:2 
+`uc 1 EPCONDIS 1 0 :1:3 
+`uc 1 EPHSHK 1 0 :1:4 
+]
+"101
+[s S771 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 EP0CONDIS 1 0 :1:3 
+]
+[s S774 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 EP0HSHK 1 0 :1:4 
+]
+[s S777 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 EP0INEN 1 0 :1:1 
+]
+[s S780 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 EP0OUTEN 1 0 :1:2 
+]
+[s S783 . 1 `uc 1 EP0STALL 1 0 :1:0 
+]
+[s S785 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 EPCONDIS0 1 0 :1:3 
+]
+[s S788 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 EPHSHK0 1 0 :1:4 
+]
+[s S791 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 EPINEN0 1 0 :1:1 
+]
+[s S794 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 EPOUTEN0 1 0 :1:2 
+]
+[s S797 . 1 `uc 1 EPSTALL0 1 0 :1:0 
+]
+[u S799 . 1 `S765 1 . 1 0 `S771 1 . 1 0 `S774 1 . 1 0 `S777 1 . 1 0 `S780 1 . 1 0 `S783 1 . 1 0 `S785 1 . 1 0 `S788 1 . 1 0 `S791 1 . 1 0 `S794 1 . 1 0 `S797 1 . 1 0 ]
+[v _UEP0bits UEP0bits `VES799  1 e 1 @3923 ]
+"180
+[v _UEP1 UEP1 `VEuc  1 e 1 @3924 ]
+"1097
+[v _UEIE UEIE `VEuc  1 e 1 @3931 ]
+"1147
+[v _UADDR UADDR `VEuc  1 e 1 @3932 ]
+"1318
+[v _UEIR UEIR `VEuc  1 e 1 @3935 ]
+"1368
+[v _UIE UIE `VEuc  1 e 1 @3936 ]
+[s S418 . 1 `uc 1 URSTIE 1 0 :1:0 
+`uc 1 UERRIE 1 0 :1:1 
+`uc 1 ACTVIE 1 0 :1:2 
+`uc 1 TRNIE 1 0 :1:3 
+`uc 1 IDLEIE 1 0 :1:4 
+`uc 1 STALLIE 1 0 :1:5 
+`uc 1 SOFIE 1 0 :1:6 
+]
+"1384
+[u S426 . 1 `S418 1 . 1 0 ]
+[v _UIEbits UIEbits `VES426  1 e 1 @3936 ]
+"1423
+[v _UCFG UCFG `VEuc  1 e 1 @3937 ]
+"1485
+[v _UIR UIR `VEuc  1 e 1 @3938 ]
+[s S399 . 1 `uc 1 URSTIF 1 0 :1:0 
+`uc 1 UERRIF 1 0 :1:1 
+`uc 1 ACTVIF 1 0 :1:2 
+`uc 1 TRNIF 1 0 :1:3 
+`uc 1 IDLEIF 1 0 :1:4 
+`uc 1 STALLIF 1 0 :1:5 
+`uc 1 SOFIF 1 0 :1:6 
+]
+"1501
+[u S407 . 1 `S399 1 . 1 0 ]
+[v _UIRbits UIRbits `VES407  1 e 1 @3938 ]
+"1540
+[v _USTAT USTAT `VEuc  1 e 1 @3939 ]
+"1590
+[v _UCON UCON `VEuc  1 e 1 @3940 ]
+[s S379 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 SUSPND 1 0 :1:1 
+`uc 1 RESUME 1 0 :1:2 
+`uc 1 USBEN 1 0 :1:3 
+`uc 1 PKTDIS 1 0 :1:4 
+`uc 1 SE0 1 0 :1:5 
+`uc 1 PPBRST 1 0 :1:6 
+]
+"1606
+[u S387 . 1 `S379 1 . 1 0 ]
+[v _UCONbits UCONbits `VES387  1 e 1 @3940 ]
+[s S337 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TMR3IE 1 0 :1:1 
+`uc 1 USBIE 1 0 :1:2 
+`uc 1 BCLIE 1 0 :1:3 
+`uc 1 EEIE 1 0 :1:4 
+`uc 1 C2IE 1 0 :1:5 
+`uc 1 C1IE 1 0 :1:6 
+`uc 1 OSCFIE 1 0 :1:7 
+]
+"4041
+[s S346 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIE 1 0 :1:6 
+]
+[u S349 . 1 `S337 1 . 1 0 `S346 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES349  1 e 1 @4000 ]
+[s S441 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TMR3IF 1 0 :1:1 
+`uc 1 USBIF 1 0 :1:2 
+`uc 1 BCLIF 1 0 :1:3 
+`uc 1 EEIF 1 0 :1:4 
+`uc 1 C2IF 1 0 :1:5 
+`uc 1 C1IF 1 0 :1:6 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"4106
+[s S450 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIF 1 0 :1:6 
+]
+[u S453 . 1 `S441 1 . 1 0 `S450 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES453  1 e 1 @4001 ]
+[s S620 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TMR3IP 1 0 :1:1 
+`uc 1 USBIP 1 0 :1:2 
+`uc 1 BCLIP 1 0 :1:3 
+`uc 1 EEIP 1 0 :1:4 
+`uc 1 C2IP 1 0 :1:5 
+`uc 1 C1IP 1 0 :1:6 
+`uc 1 OSCFIP 1 0 :1:7 
+]
+"4171
+[s S629 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIP 1 0 :1:6 
+]
+[u S632 . 1 `S620 1 . 1 0 `S629 1 . 1 0 ]
+[v _IPR2bits IPR2bits `VES632  1 e 1 @4002 ]
+[s S553 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"6765
+[s S555 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S558 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S561 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S564 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S567 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S576 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+]
+[u S582 . 1 `S553 1 . 1 0 `S555 1 . 1 0 `S558 1 . 1 0 `S561 1 . 1 0 `S564 1 . 1 0 `S567 1 . 1 0 `S576 1 . 1 0 ]
+[v _RCONbits RCONbits `VES582  1 e 1 @4048 ]
+[s S648 . 1 `uc 1 RABIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RABIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"7528
+[s S657 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S666 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[s S675 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S684 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S688 . 1 `S648 1 . 1 0 `S657 1 . 1 0 `S666 1 . 1 0 `S675 1 . 1 0 `S684 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES688  1 e 1 @4082 ]
+"354 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\doprnt.c
+[v _dpowers dpowers `C[5]ui  1 s 10 dpowers ]
+[s S33 _USB_DEVICE_DESCRIPTOR 18 `uc 1 bLength 1 0 `uc 1 bDescriptorType 1 1 `ui 1 bcdUSB 2 2 `uc 1 bDeviceClass 1 4 `uc 1 bDeviceSubClass 1 5 `uc 1 bDeviceProtocol 1 6 `uc 1 bMaxPacketSize0 1 7 `ui 1 idVendor 2 8 `ui 1 idProduct 2 10 `ui 1 bcdDevice 2 12 `uc 1 iManufacturer 1 14 `uc 1 iProduct 1 15 `uc 1 iSerialNumber 1 16 `uc 1 bNumConfigurations 1 17 ]
+"161 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/usb_descriptors.c
+[v _device_dsc device_dsc `CS33  1 e 18 0 ]
+"180
+[v _configDescriptor1 configDescriptor1 `C[67]uc  1 e 67 0 ]
+[s S70 . 4 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[1]ui 1 string 2 2 ]
+"266
+[v _sd000 sd000 `CS70  1 e 4 0 ]
+[s S74 . 52 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[25]ui 1 string 50 2 ]
+"270
+[v _sd001 sd001 `CS74  1 e 52 0 ]
+"277
+[v _sd002 sd002 `CS74  1 e 52 0 ]
+"295
+[v _USB_CD_Ptr USB_CD_Ptr `C[1]*.25Cuc  1 e 2 0 ]
+"300
+[v _USB_SD_Ptr USB_SD_Ptr `C[3]*.25Cuc  1 e 6 0 ]
+"131 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/usb_device.c
+[v _USBDeviceState USBDeviceState `VEE4051  1 e 1 0 ]
+"132
+[v _USBActiveConfiguration USBActiveConfiguration `VEuc  1 e 1 0 ]
+"133
+[v _USBAlternateInterface USBAlternateInterface `VE[2]uc  1 e 2 0 ]
+[s S126 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"134
+[s S135 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S142 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S146 _BD_STAT 1 `uc 1 Val 1 0 `S126 1 . 1 0 `S135 1 . 1 0 `S142 1 . 1 0 ]
+[s S151 . 4 `S146 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S156 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S160 __BDT 4 `S151 1 . 4 0 `S156 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v _pBDTEntryEP0OutCurrent pBDTEntryEP0OutCurrent `*.39VES160  1 e 2 0 ]
+"135
+[v _pBDTEntryEP0OutNext pBDTEntryEP0OutNext `*.39VES160  1 e 2 0 ]
+"136
+[v _pBDTEntryOut pBDTEntryOut `[3]*.39VES160  1 e 6 0 ]
+"137
+[v _pBDTEntryIn pBDTEntryIn `[3]*.39VES160  1 e 6 0 ]
+"138
+[v _shortPacketStatus shortPacketStatus `VEuc  1 e 1 0 ]
+"139
+[v _controlTransferState controlTransferState `VEuc  1 e 1 0 ]
+[u S165 . 3 `*.2uc 1 bRam 3 0 `*.2Cuc 1 bRom 3 0 `*.2ui 1 wRam 3 0 `*.2Cui 1 wRom 3 0 ]
+"140
+[s S170 . 1 `uc 1 ctrl_trf_mem 1 0 :1:0 
+`uc 1 reserved 1 0 :5:1 
+`uc 1 includeZero 1 0 :1:6 
+`uc 1 busy 1 0 :1:7 
+]
+[u S175 . 1 `S170 1 bits 1 0 `uc 1 Val 1 0 ]
+[s S178 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[u S181 . 2 `ui 1 Val 2 0 `[2]uc 1 v 2 0 `S178 1 byte 2 0 ]
+[s S185 . 6 `S165 1 pSrc 3 0 `S175 1 info 1 3 `S181 1 wCount 2 4 ]
+[v _inPipes inPipes `VE[1]S185  1 e 6 0 ]
+[u S189 . 3 `*.2uc 1 bRam 3 0 `*.2ui 1 wRam 3 0 ]
+"141
+[s S192 . 1 `uc 1 reserved 1 0 :7:0 
+`uc 1 busy 1 0 :1:7 
+]
+[u S195 . 1 `S192 1 bits 1 0 `uc 1 Val 1 0 ]
+[s S199 . 8 `S189 1 pDst 3 0 `S195 1 info 1 3 `S181 1 wCount 2 4 `*.37(v 1 pFunc 2 6 ]
+[v _outPipes outPipes `VE[1]S199  1 e 8 0 ]
+"142
+[v _pDst pDst `*.39VEuc  1 e 2 0 ]
+"143
+[v _RemoteWakeup RemoteWakeup `VEuc  1 e 1 0 ]
+"144
+[v _USBBusIsSuspended USBBusIsSuspended `VEuc  1 e 1 0 ]
+[s S204 . 1 `uc 1 filler1 1 0 :1:0 
+`uc 1 ping_pong 1 0 :1:1 
+`uc 1 direction 1 0 :1:2 
+`uc 1 endpoint_number 1 0 :4:3 
+]
+"145
+[u S209 __USTAT 1 `S204 1 . 1 0 `uc 1 Val 1 0 ]
+[v _USTATcopy USTATcopy `VES209  1 e 1 0 ]
+"146
+[v _endpoint_number endpoint_number `VEuc  1 e 1 0 ]
+"147
+[v _BothEP0OutUOWNsSet BothEP0OutUOWNsSet `VEuc  1 e 1 0 ]
+[s S212 . 1 `uc 1 ping_pong_state 1 0 :1:0 
+`uc 1 transfer_terminated 1 0 :1:1 
+]
+"148
+[u S215 . 1 `S212 1 bits 1 0 `uc 1 Val 1 0 ]
+[v _ep_data_in ep_data_in `VE[3]S215  1 e 3 0 ]
+"149
+[v _ep_data_out ep_data_out `VE[3]S215  1 e 3 0 ]
+"150
+[v _USBStatusStageTimeoutCounter USBStatusStageTimeoutCounter `VEuc  1 e 1 0 ]
+"151
+[v _USBDeferStatusStagePacket USBDeferStatusStagePacket `VEuc  1 e 1 0 ]
+"152
+[v _USBStatusStageEnabledFlag1 USBStatusStageEnabledFlag1 `VEuc  1 e 1 0 ]
+"153
+[v _USBStatusStageEnabledFlag2 USBStatusStageEnabledFlag2 `VEuc  1 e 1 0 ]
+"154
+[v _USBDeferINDataStagePackets USBDeferINDataStagePackets `VEuc  1 e 1 0 ]
+"155
+[v _USBDeferOUTDataStagePackets USBDeferOUTDataStagePackets `VEuc  1 e 1 0 ]
+"156
+[v _USB1msTickCount USB1msTickCount `VEul  1 e 4 0 ]
+"157
+[v _USBTicksSinceSuspendEnd USBTicksSinceSuspendEnd `VEuc  1 e 1 0 ]
+"164
+[v _BDT BDT `VE[12]S160  1 e 48 @512 ]
+[s S218 . 8 `uc 1 bmRequestType 1 0 `uc 1 bRequest 1 1 `ui 1 wValue 2 2 `ui 1 wIndex 2 4 `ui 1 wLength 2 6 ]
+"169
+[s S245 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`S181 1 W_Value 2 2 `S181 1 W_Index 2 4 `S181 1 W_Length 2 6 ]
+[s S251 . 8 `uc 1 Recipient 1 0 :5:0 
+`uc 1 RequestType 1 0 :2:5 
+`uc 1 DataDir 1 0 :1:7 
+`uc 1 . 1 1 :8:0 
+`uc 1 bFeature 1 2 `uc 1 . 1 3 :8:0 
+`uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S262 . 1 `uc 1 recipient 1 0 :5:0 
+`uc 1 type 1 0 :2:5 
+`uc 1 direction 1 0 :1:7 
+]
+[u S266 . 1 `uc 1 bmRequestType 1 0 `S262 1 . 1 0 ]
+[s S269 . 1 `S266 1 requestInfo 1 0 ]
+[s S271 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bDscIndex 1 2 `uc 1 bDescriptorType 1 3 `ui 1 wLangID 2 4 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S279 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bDevADR 1 2 `uc 1 bDevADRH 1 3 `uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S288 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bConfigurationValue 1 2 `uc 1 bCfgRSD 1 3 `uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S297 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bAltID 1 2 `uc 1 bAltID_H 1 3 `uc 1 bIntfID 1 4 `uc 1 bIntfID_H 1 5 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S306 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 . 1 2 :8:0 
+`uc 1 . 1 3 :8:0 
+`uc 1 bEPID 1 4 `uc 1 bEPID_H 1 5 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S315 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 . 1 2 :8:0 
+`uc 1 . 1 3 :8:0 
+`uc 1 EPNum 1 4 :4:0 
+`uc 1 . 1 4 :3:4 
+`uc 1 EPDir 1 4 :1:7 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[u S326 . 8 `S218 1 . 8 0 `S245 1 . 8 0 `S251 1 . 8 0 `S269 1 . 1 0 `S271 1 . 8 0 `S279 1 . 8 0 `S288 1 . 8 0 `S297 1 . 8 0 `S306 1 . 8 0 `S315 1 . 8 0 ]
+[v _SetupPkt SetupPkt `VES326  1 e 8 @560 ]
+"170
+[v _CtrlTrfData CtrlTrfData `VE[8]uc  1 e 8 @568 ]
+"65 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/usb_device_cdc.c
+[v _cdc_data_tx cdc_data_tx `VE[64]uc  1 e 64 @576 ]
+"66
+[v _cdc_data_rx cdc_data_rx `VE[64]uc  1 e 64 @640 ]
+[s S1559 . 7 `[7]uc 1 _byte 7 0 ]
+"76
+[s S1561 . 7 `ul 1 dwDTERate 4 0 `uc 1 bCharFormat 1 4 `uc 1 bParityType 1 5 `uc 1 bDataBits 1 6 ]
+[u S1566 _LINE_CODING 7 `S1559 1 . 7 0 `S1561 1 . 7 0 ]
+[v _line_coding line_coding `S1566  1 e 7 0 ]
+"83
+[v _cdc_rx_len cdc_rx_len `uc  1 e 1 0 ]
+"84
+[v _cdc_trf_state cdc_trf_state `uc  1 e 1 0 ]
+[s S1573 . 2 `uc 1 bLow 1 0 `uc 1 bHigh 1 1 ]
+"85
+[u S1576 _POINTER 3 `S1573 1 . 2 0 `ui 1 _word 2 0 `*.2uc 1 bRam 3 0 `*.2ui 1 wRam 3 0 `*.2Cuc 1 bRom 3 0 `*.2Cui 1 wRom 3 0 ]
+[v _pCDCSrc pCDCSrc `S1576  1 e 3 0 ]
+"86
+[v _pCDCDst pCDCDst `S1576  1 e 3 0 ]
+"87
+[v _cdc_tx_len cdc_tx_len `uc  1 e 1 0 ]
+"88
+[v _cdc_mem_type cdc_mem_type `uc  1 e 1 0 ]
+"90
+[v _CDCDataOutHandle CDCDataOutHandle `*.39v  1 e 2 0 ]
+"91
+[v _CDCDataInHandle CDCDataInHandle `*.39v  1 e 2 0 ]
+[s S1583 . 1 `uc 1 DTE_PRESENT 1 0 :1:0 
+`uc 1 CARRIER_CONTROL 1 0 :1:1 
+]
+"94
+[u S1586 _CONTROL_SIGNAL_BITMAP 1 `uc 1 _byte 1 0 `S1583 1 . 1 0 ]
+[v _control_signal_bitmap control_signal_bitmap `S1586  1 e 1 0 ]
+"110
+[v _dummy_encapsulated_cmd_response dummy_encapsulated_cmd_response `[8]uc  1 e 8 0 ]
+"5 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\main.c
+[v _main main `(v  1 e 0 0 ]
+{
+"8
+[v main@text text `[256]uc  1 a 256 0 ]
+"7
+[v main@buff buff `[64]uc  1 a 64 30 ]
+"9
+[v main@length length `i  1 a 2 94 ]
+"22
+} 0
+"17 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/cdc.c
+[v _update update `(i  1 e 2 0 ]
+{
+"33
+} 0
+"11
+[v _systemInit systemInit `(v  1 e 0 0 ]
+{
+"16
+} 0
+"295 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/usb_device.c
+[v _USBDeviceInit USBDeviceInit `(v  1 e 0 0 ]
+{
+"297
+[v USBDeviceInit@i i `uc  1 a 1 8 ]
+"389
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+{
+"15
+[v memset@p p `*.39uc  1 a 2 6 ]
+"8
+[v memset@p1 p1 `*.39v  1 p 2 0 ]
+[v memset@c c `i  1 p 2 2 ]
+[v memset@n n `ui  1 p 2 4 ]
+"22
+} 0
+"1370 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/usb_device.c
+[v _USBDeviceAttach USBDeviceAttach `(v  1 e 0 0 ]
+{
+"1400
+} 0
+"69 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 0 0 ]
+{
+[v SYSTEM_Initialize@state state `E3753  1 a 1 wreg ]
+[v SYSTEM_Initialize@state state `E3753  1 a 1 wreg ]
+[v SYSTEM_Initialize@state state `E3753  1 a 1 0 ]
+"82
+} 0
+"492 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+"528
+[v sprintf@val val `ui  1 a 2 27 ]
+"530
+[v sprintf@cp cp `*.35Cuc  1 a 2 25 ]
+"494
+[v sprintf@ap ap `[1]*.39v  1 a 2 23 ]
+"499
+[v sprintf@c c `c  1 a 1 29 ]
+"506
+[v sprintf@prec prec `c  1 a 1 22 ]
+"508
+[v sprintf@flag flag `uc  1 a 1 21 ]
+"492
+[v sprintf@sp sp `*.39uc  1 p 2 12 ]
+[v sprintf@f f `*.25Cuc  1 p 2 14 ]
+"1541
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 11 ]
+"8
+[v ___lwmod@dividend dividend `ui  1 p 2 7 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 9 ]
+"26
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 4 ]
+"8
+[v ___lwdiv@dividend dividend `ui  1 p 2 0 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+"31
+} 0
+"122 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/cdc.c
+[v _cdcPuts cdcPuts `(v  1 e 0 0 ]
+{
+[v cdcPuts@data data `*.39uc  1 p 2 9 ]
+"128
+} 0
+"629 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/usb_device_cdc.c
+[v _putsUSBUSART putsUSBUSART `(v  1 e 0 0 ]
+{
+"632
+[v putsUSBUSART@pData pData `*.39uc  1 a 2 2 ]
+"631
+[v putsUSBUSART@len len `uc  1 a 1 4 ]
+"629
+[v putsUSBUSART@data data `*.39uc  1 p 2 0 ]
+"684
+} 0
+"836
+[v _CDCTxService CDCTxService `(v  1 e 0 0 ]
+{
+"838
+[v CDCTxService@byte_to_send byte_to_send `uc  1 a 1 8 ]
+"839
+[v CDCTxService@i i `uc  1 a 1 7 ]
+"932
+} 0
+"136 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/cdc.c
+[v _cdcGets cdcGets `(i  1 e 2 0 ]
+{
+[v cdcGets@data data `*.39uc  1 p 2 11 ]
+[v cdcGets@length length `i  1 p 2 13 ]
+"143
+} 0
+"485 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/usb_device_cdc.c
+[v _getsUSBUSART getsUSBUSART `(uc  1 e 1 0 ]
+{
+[v getsUSBUSART@buffer buffer `*.39uc  1 p 2 7 ]
+[v getsUSBUSART@len len `uc  1 p 1 9 ]
+"514
+} 0
+"1013 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/usb_device.c
+[v _USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 2 0 ]
+{
+[v USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[s S126 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"1015
+[s S135 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S142 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S146 _BD_STAT 1 `uc 1 Val 1 0 `S126 1 . 1 0 `S135 1 . 1 0 `S142 1 . 1 0 ]
+[s S151 . 4 `S146 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S156 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S160 __BDT 4 `S151 1 . 4 0 `S156 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBTransferOnePacket@handle handle `*.39VES160  1 a 2 5 ]
+"1013
+[v USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[v USBTransferOnePacket@dir dir `uc  1 p 1 0 ]
+[v USBTransferOnePacket@data data `*.39uc  1 p 2 1 ]
+[v USBTransferOnePacket@len len `uc  1 p 1 3 ]
+"1018
+[v USBTransferOnePacket@ep ep `uc  1 a 1 4 ]
+"1065
+} 0
+"87 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/system.c
+[v _SYS_InterruptHigh SYS_InterruptHigh `II(v  1 e 0 0 ]
+{
+"92
+} 0
+"495 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/usb_device.c
+[v _USBDeviceTasks USBDeviceTasks `(v  1 e 0 0 ]
+{
+"497
+[v USBDeviceTasks@i i `uc  1 a 1 27 ]
+"845
+} 0
+"295
+[v i2_USBDeviceInit USBDeviceInit `(v  1 e 0 0 ]
+{
+[v i2USBDeviceInit@i USBDeviceInit `uc  1 a 1 8 ]
+"389
+} 0
+"2321
+[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 s 0 USBWakeFromSuspend ]
+{
+"2367
+} 0
+"2263
+[v _USBSuspend USBSuspend `(v  1 s 0 USBSuspend ]
+{
+"2304
+} 0
+"2220
+[v _USBStallHandler USBStallHandler `(v  1 s 0 USBStallHandler ]
+{
+"2245
+} 0
+"3042
+[v _USBIncrement1msInternalTimers USBIncrement1msInternalTimers `(v  1 e 0 0 ]
+{
+"3060
+} 0
+"2390
+[v _USBCtrlEPService USBCtrlEPService `(v  1 s 0 USBCtrlEPService ]
+{
+"2441
+} 0
+"11 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+{
+"20
+[v memcpy@s s `*.39Cuc  1 a 2 8 ]
+"18
+[v memcpy@d d `*.39uc  1 a 2 6 ]
+"11
+[v memcpy@d1 d1 `*.39v  1 p 2 0 ]
+[v memcpy@s1 s1 `*.39Cv  1 p 2 2 ]
+[v memcpy@n n `ui  1 p 2 4 ]
+"32
+} 0
+"2483 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/usb_device.c
+[v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 s 0 USBCtrlTrfSetupHandler ]
+{
+"2532
+} 0
+"1634
+[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 s 0 USBCtrlEPServiceComplete ]
+{
+"1766
+} 0
+"1506
+[v _USBCtrlEPAllowDataStage USBCtrlEPAllowDataStage `(v  1 e 0 0 ]
+{
+"1536
+} 0
+"2703
+[v _USBCheckStdRequest USBCheckStdRequest `(v  1 s 0 USBCheckStdRequest ]
+{
+"2750
+} 0
+"1986
+[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 s 0 USBStdSetCfgHandler ]
+{
+"1988
+[v USBStdSetCfgHandler@i i `uc  1 a 1 20 ]
+"2042
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\memset.c
+[v i2_memset memset `(*.39v  1 e 2 0 ]
+{
+[v i2memset@p memset `*.39uc  1 a 2 6 ]
+[v i2memset@p1 p1 `*.39v  1 p 2 0 ]
+[v i2memset@c c `i  1 p 2 2 ]
+[v i2memset@n n `ui  1 p 2 4 ]
+"22
+} 0
+"2147 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/usb_device.c
+[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 s 0 USBStdGetStatusHandler ]
+{
+[s S126 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"2179
+[s S135 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S142 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S146 _BD_STAT 1 `uc 1 Val 1 0 `S126 1 . 1 0 `S135 1 . 1 0 `S142 1 . 1 0 ]
+[s S151 . 4 `S146 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S156 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S160 __BDT 4 `S151 1 . 4 0 `S156 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBStdGetStatusHandler@p p `*.39S160  1 a 2 1 ]
+"2202
+} 0
+"2061
+[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 s 0 USBStdGetDscHandler ]
+{
+"2130
+} 0
+"2771
+[v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 s 0 USBStdFeatureReqHandler ]
+{
+[s S126 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"2773
+[s S135 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S142 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S146 _BD_STAT 1 `uc 1 Val 1 0 `S126 1 . 1 0 `S135 1 . 1 0 `S142 1 . 1 0 ]
+[s S151 . 4 `S146 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S156 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S160 __BDT 4 `S151 1 . 4 0 `S156 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBStdFeatureReqHandler@p p `*.39S160  1 a 2 24 ]
+"2778
+[v USBStdFeatureReqHandler@pUEP pUEP `*.39uc  1 a 2 21 ]
+[s S212 . 1 `uc 1 ping_pong_state 1 0 :1:0 
+`uc 1 transfer_terminated 1 0 :1:1 
+]
+"2774
+[u S215 . 1 `S212 1 bits 1 0 `uc 1 Val 1 0 ]
+[v USBStdFeatureReqHandler@current_ep_data current_ep_data `S215  1 a 1 23 ]
+"2997
+} 0
+"55 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/cdc.c
+[v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(uc  1 e 1 0 ]
+{
+[v USER_USB_CALLBACK_EVENT_HANDLER@event event `E3798  1 p 2 12 ]
+[v USER_USB_CALLBACK_EVENT_HANDLER@pdata pdata `*.39v  1 p 2 14 ]
+[v USER_USB_CALLBACK_EVENT_HANDLER@size size `ui  1 p 2 16 ]
+"120
+} 0
+"69 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/system.c
+[v i2_SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 0 0 ]
+{
+[v i2SYSTEM_Initialize@state state `E3753  1 a 1 wreg ]
+[v i2SYSTEM_Initialize@state state `E3753  1 a 1 wreg ]
+[v i2SYSTEM_Initialize@state state `E3753  1 a 1 0 ]
+"82
+} 0
+"3 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/cdc.c
+[v _cdcInit cdcInit `(v  1 e 0 0 ]
+{
+"10
+} 0
+"294 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/usb_device_cdc.c
+[v _CDCInitEP CDCInitEP `(v  1 e 0 0 ]
+{
+"347
+} 0
+"1013 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/usb_device.c
+[v i2_USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 2 0 ]
+{
+[v i2USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[s S126 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+[s S135 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S142 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S146 _BD_STAT 1 `uc 1 Val 1 0 `S126 1 . 1 0 `S135 1 . 1 0 `S142 1 . 1 0 ]
+[s S151 . 4 `S146 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S156 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S160 __BDT 4 `S151 1 . 4 0 `S156 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v i2USBTransferOnePacket@handle USBTransferOnePacket `*.39VES160  1 a 2 5 ]
+[v i2USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[v i2USBTransferOnePacket@dir dir `uc  1 p 1 0 ]
+[v i2USBTransferOnePacket@data data `*.39uc  1 p 2 1 ]
+[v i2USBTransferOnePacket@len len `uc  1 p 1 3 ]
+"1018
+[v i2USBTransferOnePacket@ep ep `uc  1 a 1 4 ]
+"1065
+} 0
+"896
+[v _USBEnableEndpoint USBEnableEndpoint `(v  1 e 0 0 ]
+{
+[v USBEnableEndpoint@ep ep `uc  1 a 1 wreg ]
+"898
+[v USBEnableEndpoint@p p `*.39uc  1 a 2 9 ]
+"896
+[v USBEnableEndpoint@ep ep `uc  1 a 1 wreg ]
+[v USBEnableEndpoint@options options `uc  1 p 1 8 ]
+"902
+[v USBEnableEndpoint@ep ep `uc  1 a 1 11 ]
+"920
+} 0
+"1561
+[v _USBConfigureEndpoint USBConfigureEndpoint `(v  1 s 0 USBConfigureEndpoint ]
+{
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 wreg ]
+[s S126 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"1563
+[s S135 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S142 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S146 _BD_STAT 1 `uc 1 Val 1 0 `S126 1 . 1 0 `S135 1 . 1 0 `S142 1 . 1 0 ]
+[s S151 . 4 `S146 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S156 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S160 __BDT 4 `S151 1 . 4 0 `S156 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBConfigureEndpoint@handle handle `*.39VES160  1 a 2 6 ]
+"1561
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 wreg ]
+[v USBConfigureEndpoint@direction direction `uc  1 p 1 0 ]
+"1567
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 5 ]
+"1603
+} 0
+"147 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/usb_device_cdc.c
+[v _USBCheckCDCRequest USBCheckCDCRequest `(v  1 e 0 0 ]
+{
+"260
+} 0
+"2555 D:\MPLABXProjects\Git\PIC18F14K50Libs\CDCSample.X\CDCLib/usb_device.c
+[v _USBCtrlTrfOutHandler USBCtrlTrfOutHandler `(v  1 s 0 USBCtrlTrfOutHandler ]
+{
+"2584
+} 0
+"1870
+[v _USBCtrlTrfRxService USBCtrlTrfRxService `(v  1 s 0 USBCtrlTrfRxService ]
+{
+"1872
+[v USBCtrlTrfRxService@byteToRead byteToRead `uc  1 a 1 1 ]
+"1873
+[v USBCtrlTrfRxService@i i `uc  1 a 1 0 ]
+"1965
+} 0
+"1434
+[v _USBCtrlEPAllowStatusStage USBCtrlEPAllowStatusStage `(v  1 e 0 0 ]
+{
+"1477
+} 0
+"2609
+[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 s 0 USBCtrlTrfInHandler ]
+{
+"2611
+[v USBCtrlTrfInHandler@lastDTS lastDTS `uc  1 a 1 1 ]
+"2684
+} 0
+"1789
+[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 s 0 USBCtrlTrfTxService ]
+{
+"1791
+[v USBCtrlTrfTxService@byteToSend byteToSend `uc  1 a 1 0 ]
+"1843
+} 0
