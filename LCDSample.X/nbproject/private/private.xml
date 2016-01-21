@@ -3,10 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/MPLABXProjects/Week2.X/Lib/i2c.c</file>
-            <file>file:/D:/MPLABXProjects/Week2.X/Lib/lcd.c</file>
-            <file>file:/D:/MPLABXProjects/Week2.X/main.c</file>
-            <file>file:/D:/MPLABXProjects/Week2.X/Lib/lcd.h</file>
+            <file>file:/D:/MPLABXProjects/GitHub/PIC18F14K50Sample/LCDSample.X/main.c</file>
+            <file>file:/D:/MPLABXProjects/GitHub/PIC18F14K50Sample/LCDSample.X/Lib/lcd.h</file>
+            <file>file:/D:/MPLABXProjects/GitHub/PIC18F14K50Sample/LCDSample.X/Lib/i2c.h</file>
+            <file>file:/D:/MPLABXProjects/GitHub/PIC18F14K50Sample/LCDSample.X/Lib/lcd.c</file>
         </group>
     </open-files>
 </project-private>

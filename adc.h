@@ -1,0 +1,15 @@
+typedef enum{
+    ADC_CHANNEL_RA4=0b0011,
+    ADC_CHANNEL_RC0,
+    ADC_CHANNEL_RC1,
+    ADC_CHANNEL_RC2,
+    ADC_CHANNEL_RC3,
+    ADC_CHANNEL_RC6,
+    ADC_CHANNEL_RC7,
+    ADC_CHANNEL_RB4,
+    ADC_CHANNEL_RB5,
+}ADC_CHANNEL;
+
+void ADC_Enable(ADC_CHANNEL channel);
+unsigned int ADC_Read();
+
